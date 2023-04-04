@@ -4,6 +4,10 @@ body {
 		padding: 0 12%;
 	}
 
+	#write > p > span {
+		width: auto;
+	}
+
 	// // 代码块字体大小
     pre {
         font-size: 14px !important;
