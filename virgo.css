@@ -1210,4 +1210,10 @@ body .CodeMirror-code {
 }
 body #write blockquote {
   margin: 16px 0;
+}
+
+@media screen and (min-width: 1446px) {
+  body content {
+    padding: 0 20%;
+  }
 }/*# sourceMappingURL=virgo.css.map */
