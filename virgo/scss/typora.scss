@@ -6,6 +6,11 @@ body {
 
 	#write > p > span {
 		width: auto;
+
+		&.md-comment {
+			font-size: 14px;
+			color: #969696;
+		}
 	}
 
 	// // 代码块字体大小
