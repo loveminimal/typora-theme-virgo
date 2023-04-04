@@ -4383,6 +4383,9 @@ body #outline-content {
 body #write .md-htmlblock {
   margin: 16px 0;
 }
+body .md-notification-container, body .md-notification-container p, body .md-notification-container .ty-enter-mode-warning-body, body .md-notification-container label {
+  font-size: 16px !important;
+}
 body #typora-source .CodeMirror-gutter-wrapper {
   font-size: 14px;
   margin-top: 2px;

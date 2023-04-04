@@ -19,8 +19,16 @@ body {
 		line-height: 16px;
 	}
 
+	// 嵌入的 HTML 元素
 	#write .md-htmlblock {
 		margin: 16px 0;
+	}
+
+	// 提示框文本大小
+	.md-notification-container {
+		&, p, .ty-enter-mode-warning-body, label {
+			font-size: 16px !important;
+		}
 	}
 
 	// 源代码模式行号大小
