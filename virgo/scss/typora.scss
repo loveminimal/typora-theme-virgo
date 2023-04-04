@@ -14,9 +14,21 @@ body {
 		padding: 4px;
 	}
 
+	// 引用间距
+	#write > blockquote {
+		margin: 16px 0;
+	}
+
 	// 大纲列表行高
 	#outline-content {
 		line-height: 16px;
+	}
+
+	#sidebar-content {
+		.outline-expander {
+			width: 16px;
+			height: 16px;
+		}
 	}
 
 	// 嵌入的 HTML 元素

@@ -4377,8 +4377,15 @@ body pre {
 body .CodeMirror-code {
   padding: 4px;
 }
+body #write > blockquote {
+  margin: 16px 0;
+}
 body #outline-content {
   line-height: 16px;
+}
+body #sidebar-content .outline-expander {
+  width: 16px;
+  height: 16px;
 }
 body #write .md-htmlblock {
   margin: 16px 0;
