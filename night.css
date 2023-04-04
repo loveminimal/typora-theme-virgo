@@ -1015,3 +1015,8 @@ footer.ty-footer {
 .clear-btn-icon {
     top: 8px;
 }
+
+/* try fix https://github.com/typora/typora-issues/issues/5253 */
+.file-node-expanded>.file-node-children {
+    display: grid;
+  }

@@ -570,6 +570,7 @@ header, .context-menu, .megamenu-content, footer {
 .md-task-list-item>input {
 	margin-left: -1.7em;
 	margin-top: calc(1rem - 12px);
+	-webkit-appearance: button;
 }
 
 input {
