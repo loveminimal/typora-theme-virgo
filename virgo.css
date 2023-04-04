@@ -4386,6 +4386,9 @@ body #write .md-htmlblock {
 body .md-notification-container, body .md-notification-container p, body .md-notification-container .ty-enter-mode-warning-body, body .md-notification-container label {
   font-size: 16px !important;
 }
+body #megamenu-menu-sidebar .megamenu-menu-list #m-saved .fa {
+  font-size: 14px;
+}
 body #typora-source .CodeMirror-gutter-wrapper {
   font-size: 14px;
   margin-top: 2px;
