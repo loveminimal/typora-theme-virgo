@@ -1,0 +1,36 @@
+body {
+	// 页面宽度
+	content {
+		padding: 0 12%;
+	}
+
+	// 代码块字体大小
+    pre {
+        font-size: 14px !important;
+		background: #f6f8fa !important;
+    }
+
+	.CodeMirror-code {
+		padding: 4px;
+	}
+
+	// 大纲列表行高
+	#outline-content {
+		line-height: 16px;
+	}
+
+	#write .md-htmlblock {
+		margin: 16px 0;
+	}
+
+	// 源代码模式行号大小
+	#typora-source .CodeMirror-gutter-wrapper {
+		font-size: 14px;
+		margin-top: 2px;
+	}
+
+	// 源代码模式标题字体大小
+	.cm-s-typora-default .cm-header2:not(.cm-atom):not(.cm-s-inner) {
+		font-size: 20px;
+	}
+}
