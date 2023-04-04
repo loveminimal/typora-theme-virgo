@@ -3,9 +3,14 @@
     border-top: 4px solid;
     border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
     border-image-slice: 1;
-    
+
     -webkit-border-top: 4px solid;
-    -webkit-border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
+    -webkit-border-image-source: linear-gradient(
+        90deg,
+        #0d6efd,
+        #8ed6fb 50%,
+        #d32e9d
+    );
     -webkit-border-image-slice: 1;
 
     z-index: 1000;
@@ -14,7 +19,7 @@
     padding: 0 $site-padding-lr;
 
     &.js-header {
-        transition: .2s background-color linear;
+        transition: 0.2s background-color linear;
         background-color: $white-500;
         backdrop-filter: blur(5px);
         backdrop-filter: saturate(180%) blur(5px); // saturate(180%)
@@ -25,9 +30,9 @@
             position: relative;
             padding: 4px 0px 6px 24px;
             #light-dark {
-                cursor: pointer; 
-                position: absolute; 
-                left: 4px; 
+                cursor: pointer;
+                position: absolute;
+                left: 4px;
                 top: 4px;
             }
         }
@@ -38,7 +43,7 @@
 
             .breadcrumb-nav-bar {
                 display: flex;
-                font-size: 0.12rem;
+                font-size: 12px;
 
                 a {
                     white-space: break-spaces;
@@ -46,7 +51,7 @@
                     height: 18px;
 
                     display: block;
-                    color: rgba(90,41,228, .8);
+                    color: rgba(90, 41, 228, 0.8);
                     background: $gray-white-300;
                     margin-right: 8px;
                     padding: 4px 8px;

@@ -7,7 +7,7 @@
         display: flex;
         justify-content: flex-end;
         flex-wrap: wrap;
-        font-size: 0.14rem;
+        font-size: 14px;
         .item {
             a {
                 display: block;
@@ -17,10 +17,10 @@
                 background: $gray-white-400;
                 border-radius: 6px;
                 text-align: center;
-                transition: .3s padding ease;
+                transition: 0.3s padding ease;
 
-            &:hover {
-                padding: 24px 8px;
+                &:hover {
+                    padding: 24px 8px;
                 }
             }
         }
@@ -40,34 +40,33 @@
         }
 
         .highlight {
-
             margin: 16px 0;
             border-top: 2px solid $highlight-color;
             border-bottom: 2px solid $highlight-color;
             padding: 2px 0;
-            font-size: 0.14rem;
+            font-size: 14px;
             overflow: hidden;
             &:hover {
                 overflow: auto;
             }
-    
+
             pre {
                 padding-top: 0;
             }
         }
-    
+
         pre {
-            font-size: 0.14rem;
+            font-size: 14px;
             border-top: 1px solid $highlight-color;
             border-bottom: 1px solid $highlight-color;
-    
+
             padding: 12px;
             overflow: hidden;
-    
+
             &:hover {
                 overflow: auto;
             }
-    
+
             .lang {
                 cursor: pointer;
                 margin-bottom: 16px;
@@ -75,7 +74,7 @@
                 border-bottom: 1px dashed $gray-500;
             }
         }
-    
+
         em {
             font-style: italic;
         }
@@ -90,7 +89,7 @@
 
             .words {
                 box-sizing: border-box;
-                font-size: .18rem;
+                font-size: 18px;
                 color: $gray-500;
                 max-width: 600px;
                 // min-height: 269px;

@@ -15,7 +15,7 @@
         &::-webkit-scrollbar-thumb {
             background-color: $gray-200;
         }
-        
+
         li {
             width: 84px;
             height: 36px;
@@ -27,7 +27,7 @@
             border-color: $gray-white-800;
             box-sizing: border-box;
             overflow: hidden;
-            transition: .2s all linear;
+            transition: 0.2s all linear;
 
             em {
                 color: #666;
@@ -36,7 +36,7 @@
             a {
                 display: block;
                 padding: 4px 8px;
-                transition: .1s all linear;
+                transition: 0.1s all linear;
                 color: #666;
 
                 &:hover {
@@ -49,7 +49,6 @@
                 }
             }
         }
-        
     }
 
     h2 {
@@ -76,9 +75,9 @@
                     margin: 4px 0;
                     a {
                         box-sizing: border-box;
-                        font-family:  $font-family--base;
-                        font-size: .16rem;
-                        transition: .3s padding linear;
+                        font-family: $font-family--base;
+                        font-size: 16px;
+                        transition: 0.3s padding linear;
                         display: inline-block;
                         width: 96%;
                         height: 36px;
@@ -108,14 +107,14 @@
                 padding: 4px;
                 overflow: hidden;
                 white-space: nowrap;
-    
+
                 &:hover {
                     overflow: auto;
                 }
-    
+
                 li {
                     list-style-type: none;
-                    transition: .3s padding linear;
+                    transition: 0.3s padding linear;
                     border-radius: 1px 5px 1px 5px;
                     padding-left: 4px;
 
@@ -134,7 +133,6 @@
 
                     &:nth-child(even) {
                         background: $gray-white-600;
-
                     }
                 }
             }

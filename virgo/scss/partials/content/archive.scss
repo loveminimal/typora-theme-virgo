@@ -1,6 +1,6 @@
 .container-archive {
     .desc {
-        font-size: .20rem;
+        font-size: 20px;
     }
 
     .recentf {
@@ -10,7 +10,7 @@
 
         .rec-post .rec-post-item {
             a {
-                font-size: .14rem;
+                font-size: 14px;
                 display: inline-block;
                 background: $gray-white-600;
                 margin: 4px;
@@ -18,10 +18,10 @@
                 border-radius: 4px;
             }
         }
-
     }
 
-    .categories, .tags {
+    .categories,
+    .tags {
         display: flex;
         flex-wrap: wrap;
 
@@ -36,7 +36,7 @@
             .arc-desc {
                 padding: 8px 0;
                 a {
-                    font-size: .16rem;
+                    font-size: 16px;
 
                     sup {
                         color: $gray-300;
@@ -50,7 +50,7 @@
 
                 .arc-post-item {
                     a {
-                        font-size: .14rem;
+                        font-size: 14px;
                         display: inline-block;
                         background: $gray-white-600;
                         margin: 4px;

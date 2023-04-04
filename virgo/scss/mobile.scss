@@ -19,19 +19,18 @@
 
             .container-header {
                 .container-breadcrumb-nav {
-                    img { 
+                    img {
                         max-width: fit-content;
                     }
                 }
 
                 #toc {
-                   position: absolute;
-                   right: 8px;
-                   top: 81px;
-                   display: initial;
-               }
+                    position: absolute;
+                    right: 8px;
+                    top: 81px;
+                    display: initial;
+                }
             }
-
         }
 
         #content {
@@ -62,7 +61,7 @@
                             margin: 12px;
                             background: $post-item-bg-color;
 
-                            >a {
+                            > a {
                                 background: $gray-white-500;
                             }
                         }
@@ -76,7 +75,6 @@
                         }
                     }
                 }
-
             }
 
             .container-home {
@@ -95,7 +93,7 @@
                             width: 90%;
                             padding: 16px 24px;
                             margin: 24px 0px 28px 0px;
-                            font-size: .16rem;
+                            font-size: 16px;
                         }
                     }
                 }
@@ -104,7 +102,6 @@
                     padding: 54px 16px;
                     // columns: 30px 2;
                 }
-                
             }
 
             .container-nav {
@@ -113,7 +110,7 @@
                 .toc {
                     display: none;
                 }
-                
+
                 .content-nav {
                     .nav ul {
                         justify-content: space-between;
@@ -134,11 +131,12 @@
                         margin: 12px;
                     }
 
-                    .item, .item-term {
+                    .item,
+                    .item-term {
                         margin: 12px;
                         background: $post-item-bg-color;
 
-                        >a {
+                        > a {
                             background: $gray-white-500;
                         }
                     }
@@ -161,7 +159,7 @@
                 padding: 0 8px 16px;
 
                 .toc {
-                    transition: .3s all linear;
+                    transition: 0.3s all linear;
                     right: -300px;
                     z-index: 1000;
                     background: $white-900;
@@ -171,7 +169,7 @@
                     border-radius: 8px;
 
                     .page-operation {
-                        transition: .5s all linear;
+                        transition: 0.5s all linear;
                         top: 128px;
                         background: $white-900;
                         border-radius: 24px;
@@ -182,7 +180,8 @@
             }
 
             .container-archive {
-                .categories, .tags {
+                .categories,
+                .tags {
                     .arc-item {
                         width: 96%;
                     }

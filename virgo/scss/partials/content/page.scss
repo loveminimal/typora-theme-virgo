@@ -1,13 +1,13 @@
 .container-page {
     position: relative;
-    font-size: 0.16rem;
+    font-size: 16px;
     margin: 0 auto;
     padding: 0 24% 0 16%;
     max-width: 760px;
 
     .desc {
         color: $gray-500;
-        font-size: 0.14rem;
+        font-size: 14px;
     }
 
     .toc {
@@ -17,7 +17,7 @@
         max-height: 566px;
         top: 176px;
         right: 16px;
-        font-size: 0.14rem;
+        font-size: 14px;
         overflow: scroll;
 
         // 滚动条宽度、颜色
@@ -62,9 +62,9 @@
                 margin-bottom: 4px;
             }
 
-            li a:not(:first-child){
+            li a:not(:first-child) {
                 color: $gray-300;
-                font-size: .01rem;
+                font-size: 1px;
             }
         }
     }
@@ -82,7 +82,7 @@
     .content-card {
         h3 {
             color: $gray-500;
-            font-size: 0.18rem;
+            font-size: 18px;
 
             &::before {
                 display: block;
@@ -96,7 +96,7 @@
 
         h4 {
             color: $gray-500;
-            font-size: 0.16rem;
+            font-size: 16px;
         }
     }
 
@@ -105,7 +105,7 @@
         border-top: 1px solid $highlight-color;
         // border-bottom: 2px solid $highlight-color;
         padding: 2px 0;
-        font-size: 0.14rem;
+        font-size: 14px;
         overflow: hidden;
         &:hover {
             overflow: auto;
@@ -117,7 +117,7 @@
     }
 
     pre {
-        font-size: 0.14rem;
+        font-size: 14px;
         border-top: 1px solid $highlight-color;
         border-bottom: 1px solid $highlight-color;
 
