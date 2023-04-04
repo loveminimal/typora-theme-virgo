@@ -1,0 +1,142 @@
+.container-page {
+    position: relative;
+    font-size: 0.16rem;
+    margin: 0 auto;
+    padding: 0 24% 0 16%;
+    max-width: 760px;
+
+    .desc {
+        color: $gray-500;
+        font-size: 0.14rem;
+    }
+
+    .toc {
+        position: fixed;
+        border-left: 1px solid $gray-300;
+        width: 260px;
+        max-height: 566px;
+        top: 176px;
+        right: 16px;
+        font-size: 0.14rem;
+        overflow: scroll;
+
+        // 滚动条宽度、颜色
+        &::-webkit-scrollbar {
+            width: 2px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: $gray-300;
+        }
+
+        // 条目节点样式
+        li {
+            list-style: none;
+            a {
+                color: $gray-600;
+                &:hover {
+                    color: $link-hover-color;
+                }
+            }
+        }
+
+        .toc-link--active {
+            color: #d14;
+        }
+
+        .page-operation {
+            display: flex;
+            position: fixed;
+            top: 136px;
+            right: 144px;
+            a {
+                img {
+                    padding: 2px;
+                    width: 24px;
+                }
+            }
+        }
+
+        #TableOfContents {
+            ul,
+            ol {
+                margin-bottom: 4px;
+            }
+
+            li a:not(:first-child){
+                color: $gray-300;
+                font-size: .01rem;
+            }
+        }
+    }
+
+    .content {
+        p,
+        li,
+        td {
+            & > code {
+                color: $code-inline-color;
+            }
+        }
+    }
+
+    .content-card {
+        h3 {
+            color: $gray-500;
+            font-size: 0.18rem;
+
+            &::before {
+                display: block;
+                white-space: nowrap;
+                overflow: hidden;
+                content: '';
+                border-top: 1px dashed $gray-500;
+                padding-top: 16px;
+            }
+        }
+
+        h4 {
+            color: $gray-500;
+            font-size: 0.16rem;
+        }
+    }
+
+    .highlight {
+        margin: 16px 0;
+        border-top: 1px solid $highlight-color;
+        // border-bottom: 2px solid $highlight-color;
+        padding: 2px 0;
+        font-size: 0.14rem;
+        overflow: hidden;
+        &:hover {
+            overflow: auto;
+        }
+
+        pre {
+            padding-top: 0;
+        }
+    }
+
+    pre {
+        font-size: 0.14rem;
+        border-top: 1px solid $highlight-color;
+        border-bottom: 1px solid $highlight-color;
+
+        padding: 12px 0;
+        overflow: hidden;
+
+        &:hover {
+            overflow: auto;
+        }
+
+        .lang {
+            cursor: pointer;
+            margin-bottom: 16px;
+            padding: 4px 0px;
+            border-bottom: 1px dashed $gray-200;
+        }
+    }
+
+    em {
+        font-style: italic;
+    }
+}

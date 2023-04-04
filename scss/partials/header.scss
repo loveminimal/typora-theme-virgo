@@ -1,0 +1,66 @@
+#header {
+    // doks header-bar
+    border-top: 4px solid;
+    border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
+    border-image-slice: 1;
+    
+    -webkit-border-top: 4px solid;
+    -webkit-border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
+    -webkit-border-image-slice: 1;
+
+    z-index: 1000;
+    position: sticky;
+    top: -66px;
+    padding: 0 $site-padding-lr;
+
+    &.js-header {
+        transition: .2s background-color linear;
+        background-color: $white-500;
+        backdrop-filter: blur(5px);
+        backdrop-filter: saturate(180%) blur(5px); // saturate(180%)
+    }
+
+    .container-header {
+        .some {
+            position: relative;
+            padding: 4px 0px 6px 24px;
+            #light-dark {
+                cursor: pointer; 
+                position: absolute; 
+                left: 4px; 
+                top: 4px;
+            }
+        }
+
+        // 面包屑导航条
+        .container-breadcrumb-nav {
+            padding-bottom: 8px;
+
+            .breadcrumb-nav-bar {
+                display: flex;
+                font-size: 0.12rem;
+
+                a {
+                    white-space: break-spaces;
+                    overflow: hidden;
+                    height: 18px;
+
+                    display: block;
+                    color: rgba(90,41,228, .8);
+                    background: $gray-white-300;
+                    margin-right: 8px;
+                    padding: 4px 8px;
+                    border-radius: 0 12px 0 8px;
+                }
+
+                .active a {
+                    color: #5a29e4;
+                }
+            }
+        }
+
+        #toc {
+            display: none;
+        }
+    }
+}

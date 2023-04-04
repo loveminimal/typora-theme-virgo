@@ -1,0 +1,43 @@
+.container-contact {
+    position: relative;
+    background: $contact-bg-color;
+    text-align: right;
+	margin-top: 128px;
+
+    .contact {
+		.slogan {
+			padding-right: 8px;
+		}
+
+		.icons {
+			padding: 4px 0;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+		}
+
+        a {
+            svg {
+				padding: 0 5px;
+				opacity: .5;
+            }
+
+			.qr {
+				width: 0;
+				height: 160px;
+				opacity: 0;
+				position: absolute;
+				top: -200px;
+				transform: translate(-50%);
+				transition: .3s all ease;
+			}
+
+        }
+		#wechat:hover .qr {
+			z-index: 1;
+			width: 160px;
+			opacity: 1;
+		}
+    }
+
+}

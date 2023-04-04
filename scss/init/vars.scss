@@ -1,0 +1,87 @@
+$font-family-sans-serif: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto,
+    'Helvetica Neue', arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+$font-family-monospace: sfmono-regular, menlo, monaco, consolas, 'Liberation Mono',
+    'Courier New', monospace;
+
+$font-family--base: jostFont, jinkaiFont, 'kaiti', $font-family-sans-serif;
+$font-family--code: romanFont, jinkaiFont, 'kaiti', $font-family-monospace;
+$font-family--some: 'Segoe Script', segoeFont;
+
+// bootstrap colos
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+$blue: #0d6efd !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #d63384 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #ffc107 !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
+$cyan: #0dcaf0 !default;
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+
+//while opacity color
+$white-000: rgba(255, 255, 255, 0);
+$white-100: rgba(255, 255, 255, 0.1);
+$white-200: rgba(255, 255, 255, 0.2);
+$white-300: rgba(255, 255, 255, 0.3);
+$white-400: rgba(255, 255, 255, 0.4);
+$white-500: rgba(255, 255, 255, 0.5);
+$white-600: rgba(255, 255, 255, 0.6);
+$white-700: rgba(255, 255, 255, 0.7);
+$white-800: rgba(255, 255, 255, 0.8);
+$white-900: rgba(255, 255, 255, 0.9);
+
+// graywhile opacity color
+$gray-white-000: rgba(239, 239, 239, 0);
+$gray-white-100: rgba(239, 239, 239, 0.1);
+$gray-white-200: rgba(239, 239, 239, 0.2);
+$gray-white-300: rgba(239, 239, 239, 0.3);
+$gray-white-400: rgba(239, 239, 239, 0.4);
+$gray-white-500: rgba(239, 239, 239, 0.5);
+$gray-white-600: rgba(239, 239, 239, 0.6);
+$gray-white-700: rgba(239, 239, 239, 0.7);
+$gray-white-800: rgba(239, 239, 239, 0.8);
+$gray-white-900: rgba(239, 239, 239, 0.9);
+
+// element color
+$header-bg-color: $white-000;
+$content-bg-color: $white-000;
+$footer-bg-color: $white-000;
+$headline-bg-color: $white-000;
+$contact-bg-color: $white-000;
+$img-border-color: $white-000;
+
+$custom-green: #57bf7d;
+
+$link-color: #5d2f86;       // #0086b3;
+$link-hover-color: #e69;
+$table-color: #e9e7ef;
+$highlight-color: #e9e7ef;
+$blockquote-color: $gray-600;
+$essay-color: #969696; // #e84a5f; // #7FB3D5; // #808B96; #4c8dae; #e84a5f;
+$code-inline-color: #d63384;
+
+$site-padding-lr: 80px;
+$post-item-bg-color: $gray-white-200;

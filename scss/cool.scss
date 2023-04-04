@@ -1,0 +1,154 @@
+@mixin bg-cool {
+	background: $white-500;
+	backdrop-filter: saturate(180%) blur(3px);
+}
+
+body.cool {
+	background-color: $white-000;
+
+	&::before {
+		content: '';
+		display: block;
+		width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background: url('/imgs/bg/default.jpg') center center/cover no-repeat fixed;
+	}
+
+	// 设置 body 遮罩
+	&::after {
+		content: '';
+		display: block;
+		width: 100%;
+		min-height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		background-color: rgba(255, 255, 255, .81);	// $white-900;
+		// background: $white-700;
+		// backdrop-filter: saturate(180%) blur(3px);
+
+	}
+	
+	#header {
+		.container-header {
+			.container-breadcrumb-nav .breadcrumb-nav-bar a {
+				@include bg-cool;
+			}
+		}
+	} 
+
+	#content {
+		.container-home {
+			.menu .item a {
+				@include bg-cool;
+			}
+
+			.content {
+				.desc {
+					.words {
+						// margin-left: 0;
+						@include bg-cool;
+					}
+				}
+			} 
+		}
+
+		.container-nav {
+			.toc li {
+				border: 1px solid rgba(255, 255, 255, 0);
+				@include bg-cool;
+			}
+
+			.content-nav {
+
+				.nav li a {
+					@include bg-cool;
+				}
+
+				.bookmark li {
+					&:nth-child(even) {
+						@include bg-cool;
+                    }
+				}
+			} 
+		}
+
+		.container-archive {
+
+			.rec-post .rec-post-item {
+				a {
+					@include bg-cool;
+				}
+			}
+
+			.categories, .tags {
+				.arc-item {
+					@include bg-cool;
+					
+					sup {
+						color: $gray-500;
+					}
+					
+					.arc-post-item a {
+						@include bg-cool;
+					}
+				}
+			}
+		}
+
+		.container-search,
+		.container-list {
+			.list {
+				.recentf {
+					@include bg-cool;
+					.rec-post-item a {
+						background: $white-300;
+					}
+				}
+
+				.item-term {
+            		border-radius: 0 16px 0 16px;
+				}
+				.item, .item-term {
+					@include bg-cool;
+				}
+			}
+		}
+
+		.container-page pre {
+			padding: 12px 16px;
+		}
+
+		.container-ctgtag {
+			.taxonomy {
+				.ctg, .tag {
+					a {
+						@include bg-cool;
+					}
+				}
+			}
+		}
+
+		.container-search {
+			#search {
+				#sc-input {
+					&::placeholder {
+						color: $white-900;
+					}
+				}
+			}
+		}
+
+	}
+
+	// #footer { }
+
+	pre {
+		background-color: $white-300 !important;
+	}
+}
