@@ -1,7 +1,11 @@
 body {
 	// 页面宽度
 	content {
-		padding: 0 12%;
+		// padding: 0 12%;
+	}
+
+	#write {
+		width: 766px;
 	}
 
 	#write > p > span {
@@ -72,10 +76,10 @@ body {
 	// }
 }
 
-@media screen and (min-width: 1446px) {
-	body {
-		content {
-			padding: 0 20%;
-		}
-	}
-}
+// @media screen and (min-width: 1446px) {
+// 	body {
+// 		content {
+// 			padding: 0 20%;
+// 		}
+// 	}
+// }
