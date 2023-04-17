@@ -1254,9 +1254,18 @@ body {
   background: #333;
   color: #eee;
 }
+body a {
+  color: #a973d9;
+}
 body pre {
   background: #333 !important;
   border: 1px solid #666;
+}
+body .cm-s-inner .cm-keyword {
+  color: #906d95;
+}
+body .cm-s-inner .cm-comment, body .cm-s-inner.cm-comment {
+  color: #8d8781;
 }
 body .typora-quick-open-item.active {
   background: #696969;

@@ -25,7 +25,7 @@ body {
 	color: #eee;
 
 	a {
-		// color: #AED6F1;
+		color: #a973d9;
 	}
 
 	pre {
@@ -33,30 +33,13 @@ body {
 		border: 1px solid #666;
 	}
 
-	// .cm-s-inner .cm-property {
-	// 	color: #eee;
-	// }
+	.cm-s-inner .cm-keyword {
+		color: #906d95;
+	}
 
-	// .cm-s-inner .cm-atom, .cm-s-inner.cm-atom {
-	// 	color: rgb(131, 123, 179);
-	// }
-
-	// .cm-s-inner .cm-builtin {
-	// 	color: rgb(131, 123, 179);
-	// }
-
-	// .cm-s-inner .cm-comment, .cm-s-inner.cm-comment {
-	// 	color: #aaa;
-	// }
-
-	// .cm-s-inner .cm-string {
-	// 	color: #ccc;
-	// }
-
-	// .cm-s-inner .cm-variable {
-	// 	color: #ddd;
-	// }
-
+	.cm-s-inner .cm-comment, .cm-s-inner.cm-comment {
+		color: #8d8781;
+	}
 
 	.typora-quick-open-item.active {
 		background: #696969;
