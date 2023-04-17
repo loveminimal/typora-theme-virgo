@@ -22,15 +22,19 @@
 
 body {
 	background: #333;
-	color: #eee;
+	color: #c7c5c5;
 
 	a {
-		color: #a973d9;
+		color: #aa8ac7;
 	}
 
 	pre {
 		background: #333 !important;
 		border: 1px solid #666;
+	}
+
+	.summary code, p code, td code, li code {
+		color: #c2588d;
 	}
 
 	.cm-s-inner .cm-keyword {
@@ -39,6 +43,61 @@ body {
 
 	.cm-s-inner .cm-comment, .cm-s-inner.cm-comment {
 		color: #8d8781;
+	}
+
+	.cm-s-inner .cm-property {
+		color: #c7c5c5;
+	}
+
+	.cm-s-inner .cm-atom, .cm-s-inner.cm-atom {
+		color: #78739d;
+	}
+
+	.cm-s-inner .cm-string {
+		color: #9a7c7c;
+	}
+
+	.cm-s-inner .cm-string-2 {
+		color: #9a7c7c; // #ffdccb;
+	}
+	.cm-s-inner .cm-builtin {
+		color: #8c83a3;
+	}
+
+	.cm-s-inner .cm-def {
+		color: #8a8aeb;
+	}
+
+	.cm-s-inner .cm-variable-3 {
+		color: #588474;
+	}
+
+	.cm-s-inner .cm-variable-2 {
+		color: #4a739c;
+	}
+
+	.cm-s-inner .cm-variable {
+		color: #a8a5a5;
+	}
+
+	.cm-s-inner .cm-operator {
+		color: #8c6060;
+	}
+
+	.cm-s-inner .cm-number {
+		color: #497663;
+	}
+
+	.cm-s-inner .cm-attribute {
+		color: #aaaac7;
+	}
+
+	.cm-s-inner .cm-tag {
+		color: #62815d;
+	}
+
+	.cm-invalidchar {
+		color: #865858;
 	}
 
 	.typora-quick-open-item.active {
