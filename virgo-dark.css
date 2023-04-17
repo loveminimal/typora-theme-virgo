@@ -1297,4 +1297,8 @@ body .cm-invalidchar {
 }
 body .typora-quick-open-item.active {
   background: #696969;
+}
+body .cm-s-inner .CodeMirror-cursor {
+  border-left: solid thin #f8f8f2 !important;
+  margin-left: 4px;
 }/*# sourceMappingURL=virgo-dark.css.map */

@@ -103,5 +103,10 @@ body {
 	.typora-quick-open-item.active {
 		background: #696969;
 	}
+
+	.cm-s-inner .CodeMirror-cursor {
+		border-left: solid thin #f8f8f2 !important;
+		margin-left: 4px;
+	}
 }
 
