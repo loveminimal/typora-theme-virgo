@@ -1,0 +1,65 @@
+:root {
+	--bg-color:  #333; /*改变背景色*/
+	--text-color: #eee; /*改变文字颜色*/
+	--md-char-color: #C7C5C5; /*改变元字符的颜色，例如 markdown 中的“*”*/
+	--meta-content-color: #5b808d; /*改变元内容的颜色，例如 markdown 中的图像文本和链接地址*/
+ 
+	--primary-color: #428bca; /*主按钮的颜色*/
+	--primary-btn-border-color: #285e8e;
+	--primary-btn-text-color: #fff;
+ 
+	--window-border: 1px solid #eee; /*边栏等的边框*/
+ 
+	--active-file-bg-color: #696969; /*文件树或文件列表中当前项的背景色*/
+	--active-file-text-color: inherit;
+	--active-file-border-color: #777;
+ 
+	--side-bar-bg-color: var(--bg-color); /*改变边栏颜色*/
+	--item-hover-bg-color: #696969; // rgba(229, 229, 229, 0.59); /*鼠标悬停时控件项的背景，如侧边栏中的菜单*/
+	--item-hover-text-color: inherit;
+	// --monospace: monospace; /*代码的等宽字体*/
+ }
+
+body {
+	background: #333;
+	color: #eee;
+
+	a {
+		// color: #AED6F1;
+	}
+
+	pre {
+		background: #333 !important;
+		border: 1px solid #666;
+	}
+
+	// .cm-s-inner .cm-property {
+	// 	color: #eee;
+	// }
+
+	// .cm-s-inner .cm-atom, .cm-s-inner.cm-atom {
+	// 	color: rgb(131, 123, 179);
+	// }
+
+	// .cm-s-inner .cm-builtin {
+	// 	color: rgb(131, 123, 179);
+	// }
+
+	// .cm-s-inner .cm-comment, .cm-s-inner.cm-comment {
+	// 	color: #aaa;
+	// }
+
+	// .cm-s-inner .cm-string {
+	// 	color: #ccc;
+	// }
+
+	// .cm-s-inner .cm-variable {
+	// 	color: #ddd;
+	// }
+
+
+	.typora-quick-open-item.active {
+		background: #696969;
+	}
+}
+
