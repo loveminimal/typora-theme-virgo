@@ -25,6 +25,10 @@ body {
 	background: #333;
 	color: #c7c5c5;
 
+	&.on-focus-mode {
+		color: #696969;
+	}
+
 	a {
 		color: #aa8ac7;
 	}

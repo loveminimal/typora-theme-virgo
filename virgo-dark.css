@@ -1255,6 +1255,9 @@ body {
   background: #333;
   color: #c7c5c5;
 }
+body.on-focus-mode {
+  color: #696969;
+}
 body a {
   color: #aa8ac7;
 }
