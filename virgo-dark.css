@@ -1249,6 +1249,7 @@ body #write blockquote {
   --item-hover-bg-color: #696969;
   --item-hover-text-color: inherit;
   --blur-text-color:#696969;
+  --select-text-bg-color: #696969;
 }
 
 body {
