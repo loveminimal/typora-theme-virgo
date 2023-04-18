@@ -1,6 +1,6 @@
 :root {
 	--bg-color:  #333; /*改变背景色*/
-	--text-color: #eee; /*改变文字颜色*/
+	--text-color: #c7c5c5;// #eee; /*改变文字颜色*/
 	--md-char-color: #C7C5C5; /*改变元字符的颜色，例如 markdown 中的“*”*/
 	--meta-content-color: #5b808d; /*改变元内容的颜色，例如 markdown 中的图像文本和链接地址*/
  
@@ -18,7 +18,8 @@
 	--item-hover-bg-color: #696969; // rgba(229, 229, 229, 0.59); /*鼠标悬停时控件项的背景，如侧边栏中的菜单*/
 	--item-hover-text-color: inherit;
 	// --monospace: monospace; /*代码的等宽字体*/
- }
+	--blur-text-color:#696969;
+}
 
 body {
 	background: #333;
