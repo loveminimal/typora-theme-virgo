@@ -1259,6 +1259,9 @@ body {
 body.on-focus-mode {
   color: #696969;
 }
+body.on-focus-mode #typora-sidebar {
+  color: #c7c5c5;
+}
 body a {
   color: #aa8ac7;
 }
