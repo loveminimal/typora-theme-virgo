@@ -1212,6 +1212,9 @@ body.active-animate .container-page .toc .page-operation {
   padding: 6px 0;
 }
 
+body.on-focus-mode {
+  color: #c8c8c8;
+}
 body #write {
   width: 766px;
 }

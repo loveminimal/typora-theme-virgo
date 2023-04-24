@@ -1212,6 +1212,9 @@ body.active-animate .container-page .toc .page-operation {
   padding: 6px 0;
 }
 
+body.on-focus-mode {
+  color: #c8c8c8;
+}
 body #write {
   width: 766px;
 }
@@ -1264,6 +1267,9 @@ body.on-focus-mode {
 }
 body.on-focus-mode #typora-sidebar {
   color: #c7c5c5;
+}
+body .typora-quick-open-item.active {
+  background: #696969;
 }
 body a {
   color: #aa8ac7;
@@ -1322,9 +1328,6 @@ body .cm-s-inner .cm-tag {
 }
 body .cm-invalidchar {
   color: #865858;
-}
-body .typora-quick-open-item.active {
-  background: #696969;
 }
 body .cm-s-inner .CodeMirror-cursor {
   border-left: solid thin #f8f8f2 !important;

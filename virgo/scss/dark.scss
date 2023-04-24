@@ -34,6 +34,10 @@ body {
 		}
 	}
 
+	.typora-quick-open-item.active {
+		background: #696969;
+	}
+
 	a {
 		color: #aa8ac7;
 	}
@@ -108,10 +112,6 @@ body {
 
 	.cm-invalidchar {
 		color: #865858;
-	}
-
-	.typora-quick-open-item.active {
-		background: #696969;
 	}
 
 	.cm-s-inner .CodeMirror-cursor {

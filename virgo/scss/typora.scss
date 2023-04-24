@@ -1,7 +1,6 @@
 body {
-	// 页面宽度
-	content {
-		// padding: 0 12%;
+	&.on-focus-mode {
+		color: #c8c8c8;
 	}
 
 	#write {
@@ -17,7 +16,7 @@ body {
 		}
 	}
 
-	// // 代码块字体大小
+	// 代码块字体大小
     pre {
         font-size: 14px !important;
 		background: #f6f8fa !important;
@@ -31,53 +30,12 @@ body {
 		padding: 4px;
 	}
 
-	// // 引用间距
+	// 引用间距
 	#write blockquote {
 		margin: 16px 0;
 	}
 
-	// // 大纲列表行高
-	// #outline-content {
-	// 	line-height: 16px;
-	// }
 
-	// #sidebar-content {
-	// 	.outline-expander {
-	// 		width: 16px;
-	// 		height: 16px;
-	// 	}
-	// }
-
-	// // 嵌入的 HTML 元素
-	// #write .md-htmlblock {
-	// 	margin: 16px 0;
-	// }
-
-	// // 提示框文本大小
-	// .md-notification-container {
-	// 	&, p, .ty-enter-mode-warning-body, label {
-	// 		font-size: 16px !important;
-	// 	}
-	// }
-
-	// // 新 UI 侧栏图标
-	// #megamenu-menu-sidebar {
-
-	// 	.megamenu-menu-list #m-saved .fa {
-	// 		font-size: 14px;
-	// 	}
-	// }
-
-	// // 源代码模式行号大小
-	// #typora-source .CodeMirror-gutter-wrapper {
-	// 	font-size: 14px;
-	// 	margin-top: 2px;
-	// }
-
-	// // 源代码模式标题字体大小
-	// .cm-s-typora-default .cm-header2:not(.cm-atom):not(.cm-s-inner) {
-	// 	font-size: 20px;
-	// }
 }
 
 // @media screen and (min-width: 1446px) {
