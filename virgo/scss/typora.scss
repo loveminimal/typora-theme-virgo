@@ -21,6 +21,10 @@ body {
     pre {
         font-size: 14px !important;
 		background: #f6f8fa !important;
+
+		&.md-meta-block {
+			padding: 6px;
+		}
     }
 
 	.CodeMirror-code {

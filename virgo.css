@@ -370,42 +370,54 @@ em code,
 }
 
 body.active-animate {
-  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+          animation: fadeIn 2s;
 }
 body.active-animate p {
-  animation: slideInUp 0.6s;
+  -webkit-animation: slideInUp 0.6s;
+          animation: slideInUp 0.6s;
 }
 body.active-animate .container-home .menu .item {
-  animation: slideInDown 1s;
+  -webkit-animation: slideInDown 1s;
+          animation: slideInDown 1s;
 }
 body.active-animate .container-home .content .desc {
-  animation: slideInUp 1s;
+  -webkit-animation: slideInUp 1s;
+          animation: slideInUp 1s;
 }
 body.active-animate .container-nav .content-nav .nav ul {
-  animation: slideInUp 1s;
+  -webkit-animation: slideInUp 1s;
+          animation: slideInUp 1s;
 }
 body.active-animate .container-search #search {
-  animation: slideInLeft 1s;
+  -webkit-animation: slideInLeft 1s;
+          animation: slideInLeft 1s;
 }
 body.active-animate .container-search .list .item {
-  animation: slideInUp 1s;
+  -webkit-animation: slideInUp 1s;
+          animation: slideInUp 1s;
 }
 body.active-animate .container-list .list .recentf, body.active-animate .container-list .list .item {
-  animation: slideInUp 1s;
+  -webkit-animation: slideInUp 1s;
+          animation: slideInUp 1s;
 }
 body.active-animate .container-archive .recentf .rec-post .rec-post-item {
-  animation: slideInLeft 1s;
+  -webkit-animation: slideInLeft 1s;
+          animation: slideInLeft 1s;
 }
 body.active-animate .container-archive .categories .arc-item,
 body.active-animate .container-archive .tags .arc-item {
-  animation: slideInUp 1s;
+  -webkit-animation: slideInUp 1s;
+          animation: slideInUp 1s;
 }
 body.active-animate .container-archive .categories .arc-item .arc-post .arc-post-item,
 body.active-animate .container-archive .tags .arc-item .arc-post .arc-post-item {
-  animation: slideInRight 1s;
+  -webkit-animation: slideInRight 1s;
+          animation: slideInRight 1s;
 }
 body.active-animate .container-page .toc .page-operation {
-  animation: slideInLeft 1s;
+  -webkit-animation: slideInLeft 1s;
+          animation: slideInLeft 1s;
 }
 
 #header {
@@ -416,6 +428,7 @@ body.active-animate .container-page .toc .page-operation {
   -webkit-border-image-source: linear-gradient(90deg, #0d6efd, #8ed6fb 50%, #d32e9d);
   -webkit-border-image-slice: 1;
   z-index: 1000;
+  position: -webkit-sticky;
   position: sticky;
   top: -66px;
   padding: 0 80px;
@@ -940,6 +953,10 @@ body.active-animate .container-page .toc .page-operation {
   color: #dee2e6;
   font-family: "Segoe Script", segoeFont;
 }
+#content .container-search #search #sc-input:-ms-input-placeholder {
+  color: #dee2e6;
+  font-family: "Segoe Script", segoeFont;
+}
 #content .container-search #search #sc-input::placeholder {
   color: #dee2e6;
   font-family: "Segoe Script", segoeFont;
@@ -1208,6 +1225,9 @@ body #write > p > span.md-comment {
 body pre {
   font-size: 14px !important;
   background: #f6f8fa !important;
+}
+body pre.md-meta-block {
+  padding: 6px;
 }
 body .CodeMirror-code {
   padding: 4px;

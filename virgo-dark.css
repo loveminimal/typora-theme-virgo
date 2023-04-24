@@ -1226,6 +1226,9 @@ body pre {
   font-size: 14px !important;
   background: #f6f8fa !important;
 }
+body pre.md-meta-block {
+  padding: 6px;
+}
 body .CodeMirror-code {
   padding: 4px;
 }
